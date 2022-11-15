@@ -29,13 +29,13 @@ For this project we worked with a credit card dataset from LendingClub, a peer-t
 
 **Balanced acurracy score**: 0.6565668921997064
 
-
+### Ensemble Models
+As for the ensemble models of machine learning we got the next results:
 
 - Balanced Random Forest Classifier
+In this model we got an average precision of 0.99 and a recall of 0.90. Specifically in high risk credits we obtained 0.04 precision and 0.72 recall, these being very low numbers. In low risk credits we obtained 1.00 precision and 0.90 recall. In the general overview of the model, it obtained a **balanced accuracy score** of **0.8107896709563742**.
+
 ![random-forest](https://user-images.githubusercontent.com/107893200/201830805-ba13cdc5-1aab-462d-83b3-604c9d6c8579.png)
-
-**Balanced acurracy score**: 0.8107896709563742
-
 
 - Easy Ensemble AdaBoost Classifier
 ![adaBoost](https://user-images.githubusercontent.com/107893200/201830908-3dc65554-d4fe-40c5-9237-69ed4a5ea5be.png)
