@@ -22,17 +22,20 @@ The model obtained a **balanced accuracy score** of **0.6526081124403125**.
 
 
 - SMOTE Oversampling
+
 ![SMOTE](https://user-images.githubusercontent.com/107893200/201832314-4cd83626-4e07-4c94-8b8b-3517a108a411.png)
 
 The model obtained a **balanced accuracy score** of **0.6437309126495352**.
 
 - Cluster Centroids
+
 ![cluster-centroids](https://user-images.githubusercontent.com/107893200/201832418-6eb4fba0-7760-4831-b8be-54a8562721ff.png)
 
 The model obtained a **balanced accuracy score** of **0.5009765130679805**.
 
 
 - SMOTEENN
+
 ![SMOTEENN](https://user-images.githubusercontent.com/107893200/201832486-a18c2ae4-4939-436d-9745-65036f1c0b68.png)
 
 The model obtained a **balanced accuracy score** of **0.6565668921997064**.
