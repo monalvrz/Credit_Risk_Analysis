@@ -59,3 +59,8 @@ As for the AdaBoost machine learning model, we obtained a total of 0.99 precisio
 ## Summary
 
 After testing different machine learning models and observing the precision, recall and balanced accuracy scores of each one, we can conclude the following. 
+
+The models that obtained a better balanced accuracy score were the SMOTEENN with a 0.65 score, the Balanced Random Forest Classifier with a 0.81 score, and the AdaBoost Classifier with a 0.93 score. The latter obtained the best among all the other models.
+
+The machine learning model we recommend as the most suitable for performing a credit risk prediction is the Easy Ensemble AdaBoost Classifier. 
+This is due to the fact that in both the precision and recall scores for high risk loans we obtained a better percentage, although it still has a low score of 0.09 in precision and 0.93 for recall. In this particular case we are interested in obtaining a high recall score. This is because we want the model to detect the least amount of false positives but to correctly detect who is a high risk when authorizing a credit. 
